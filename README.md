@@ -6,9 +6,12 @@
 git clone my repository 
 
 #### Step 2- Create a conda environment after opening the repository
-conda create -p env python=3.8 -y
+conda create -p env python=3.9 -y
 
 conda activate env
 
 #### Step 3 - Install the requirements
 pip install -r requirements.txt
+
+#### Step 4 - Run your application file
+python app.py
